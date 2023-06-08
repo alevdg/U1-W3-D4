@@ -40,6 +40,3 @@ function estraiNumero() {
     // Aggiorna la lista dei numeri estratti
     document.getElementById("ListaNumeriEstratti").innerText = numeriEstratti.join(", ");
 }
-
-//Extra
-//Reset della tombola dopo che i numeri siano stati tutti estratti
