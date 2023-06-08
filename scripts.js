@@ -6,7 +6,7 @@ let cellePerRiga = 13;
 // Creazione tabella
 for (let i = 0; i < numeroCelle; i++) {
     if (i % cellePerRiga === 0) {
-        // Crea una nuova riga ogni 8 celle
+        // Crea una nuova riga ogni 13 celle
         let riga = document.createElement("tr");
         tabellone.appendChild(riga);
     }
