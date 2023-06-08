@@ -5,29 +5,49 @@
 
 #tabellone td {
     border: 1px solid black;
-    width: 10px;
-    height: 10px;
+    width: 5vw;
+    height: 5vw;
     text-align: center;
+    font-weight: bold;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
 .evidenziato{
     background-color: violet;
 }
 
 h1 {
-    text-align: center;
-    color: rgb(1, 1, 2);
     display: block;
-    background: rgb(80, 215, 215);;
-    margin:0;
+    margin: 0 auto;
+    background-color: rgb(80, 215, 215);
+    border-style: solid;
+    border-color: rgb(30, 172, 125);
+    height: 3vw;
+    width: 67.2vw;
+    font-size: 2vw;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    text-align: center;
+  
 }
 
 button {
     display: block;
     margin: 0 auto;
     background-color: rgb(80, 215, 215);
-    border-radius: 10px;
     border-style: solid;
     border-color: rgb(30, 172, 125);
-}
+    height: 3vw;
+    width: 67.4vw;
+    font-size: 2vw;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+  }
 
+p{
+    text-align: center
+    
+}
