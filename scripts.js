@@ -20,7 +20,6 @@ for (let i = 0; i < numeroCelle; i++) {
     rigaCorrente.appendChild(cella);
 }
 
-
 // Funzione estrazione numeri
 function estraiNumero() {
     if (numeriEstratti.length === numeroCelle - 2) { // Modificato da numeroCelle a numeroCelle - 2
